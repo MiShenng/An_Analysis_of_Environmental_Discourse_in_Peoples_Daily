@@ -35,7 +35,17 @@ For the social media component, a self-built web crawler was used to collect Wei
 
 ## Repository Structure
 
-text . ├── README.md ├── data/ │   └── processed/ ├── scripts/ │   ├── crawler/ │   ├── content_analysis/ │   └── discourse_analysis/ ├── results/ │   ├── tables/ │   └── figures/ └── docs/ 
+├── README.md
+├── data/
+│   └── processed/
+├── scripts/
+│   ├── crawler/
+│   ├── content_analysis/
+│   └── discourse_analysis/
+├── results/
+│   ├── tables/
+│   └── figures/
+└── docs/
 
 ## Notes
 
