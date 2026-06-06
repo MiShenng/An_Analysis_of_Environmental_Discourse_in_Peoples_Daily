@@ -34,8 +34,7 @@ The analysis was further combined with the evolution of China’s environmental 
 For the social media component, a self-built web crawler was used to collect Weibo posts related to environmental protection from People’s Daily. These posts were then compared with content from the newspaper’s print editions.
 
 ## Repository Structure
-
-.
+```text
 ├── README.md
 ├── data/
 │   └── processed/
@@ -47,6 +46,8 @@ For the social media component, a self-built web crawler was used to collect Wei
 │   ├── tables/
 │   └── figures/
 └── docs/
+```
+
 ## Notes
 
 This repository is intended for academic documentation and methodological transparency. Raw copyrighted news content and platform data are not included.
