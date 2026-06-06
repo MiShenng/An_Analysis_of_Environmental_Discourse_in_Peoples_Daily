@@ -35,6 +35,7 @@ For the social media component, a self-built web crawler was used to collect Wei
 
 ## Repository Structure
 
+.
 ├── README.md
 ├── data/
 │   └── processed/
@@ -46,7 +47,6 @@ For the social media component, a self-built web crawler was used to collect Wei
 │   ├── tables/
 │   └── figures/
 └── docs/
-
 ## Notes
 
 This repository is intended for academic documentation and methodological transparency. Raw copyrighted news content and platform data are not included.
