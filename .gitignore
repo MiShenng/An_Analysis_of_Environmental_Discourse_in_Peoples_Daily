@@ -13,6 +13,7 @@ data/unprocessed/
 # Row-level coded data are local/restricted only
 data/processed/*
 !data/processed/README.md
+!data/processed/coded_metadata.xlsx
 
 # R/Python runtime artifacts
 .Rhistory

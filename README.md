@@ -21,7 +21,7 @@ The project uses two sources of data:
 - Environmental news coverage from People’s Daily print editions, from 1949 to the present.
 - Weibo posts related to environmental protection published by People’s Daily.
 
-Due to copyright restrictions and platform policies, raw news articles, article-level coded spreadsheets, and social media posts are not publicly released in this repository. The repository includes aggregate result tables and figures only.
+Due to copyright restrictions and platform policies, raw news articles, raw full-text spreadsheets, and social media posts are not publicly released in this repository. The repository includes the processed coding table without article body text, plus aggregate result tables and figures.
 
 ## Method
 
