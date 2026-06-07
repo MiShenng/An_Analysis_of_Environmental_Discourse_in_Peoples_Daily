@@ -1,0 +1,52 @@
+\documentclass[man,12pt,mask,floatsintext]{apa7}
+
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+% 中文正文宋体；显式指定粗体（标题 \bfseries 才能真正加粗，否则宋体不变粗）
+\setCJKmainfont{Songti SC}[BoldFont={Heiti SC}]
+\setCJKsansfont{Heiti SC}
+\setCJKmonofont{Songti SC}
+
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{calc}
+\usepackage{xurl}
+\usepackage{endnotes}
+\usepackage{hyperref}
+
+\hypersetup{
+  hidelinks,
+  unicode=true,
+  pdftitle={融媒体时代新型主流媒体环境话语建构与视觉叙事策略研究}
+}
+
+% 关闭自动章节编号（标题已含中文“第一章/第一节/一、”，避免出现“2.0.3”这类数字）
+\setcounter{secnumdepth}{-1}
+\graphicspath{{media/}{media/media/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.jpeg}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\hl}[1]{#1}
+\let\footnote=\endnote
+\renewcommand{\notesname}{参考文献}
+\renewcommand{\enotesize}{\normalsize}
+
+\title{融媒体时代新型主流媒体环境话语建构与视觉叙事策略研究}
+\shorttitle{}
+\authorsnames{\phantom{Author}}
+\authorsaffiliations{{\phantom{Affiliation}}}
+\leftheader{}
+
+\begin{document}
+
+\maketitle
+\input{body.tex}
+\clearpage
+\renewcommand{\notesname}{参考文献}
+\renewcommand{\enoteheading}{\section*{参考文献}}
+\theendnotes
+
+\end{document}

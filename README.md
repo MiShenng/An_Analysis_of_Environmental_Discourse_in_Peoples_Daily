@@ -47,11 +47,16 @@ For the social media component, a self-built web crawler was used to collect Wei
 │   ├── tables/
 │   └── figures/
 └── docs/
+    └── manuscript/
+        ├── main.tex
+        ├── body.tex
+        ├── charts/
+        └── media/
 ```
 
 ## Notes
 
-This repository is intended for academic documentation and methodological transparency. Raw copyrighted news content, platform data, and row-level coded metadata are not included.
+This repository is intended for academic documentation and methodological transparency. Raw copyrighted news content, platform data, and row-level coded metadata are not included. The full manuscript PDF, reviewed Word draft, and a complete LaTeX manuscript bundle are included under `docs/manuscript/`.
 
 ## Project Information
 

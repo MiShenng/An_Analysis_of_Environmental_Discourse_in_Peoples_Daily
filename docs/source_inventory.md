@@ -11,7 +11,7 @@ This folder was assembled from local project files to match the repository READM
 - `scripts/discourse_analysis/`: R scripts for diachronic and discourse-oriented summaries.
 - `results/tables/`: aggregate tables generated from coded metadata.
 - `results/figures/`: existing project figures.
-- `docs/manuscript/`: manuscript PDF, LaTeX source files, and reviewed Word draft.
+- `docs/manuscript/`: manuscript PDF, reviewed Word draft, and complete LaTeX bundle with `main.tex`, `body.tex`, `charts/`, and `media/`.
 
 ## Excluded
 
