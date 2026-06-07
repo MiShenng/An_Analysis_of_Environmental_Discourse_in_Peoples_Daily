@@ -21,7 +21,7 @@ The project uses two sources of data:
 - Environmental news coverage from People’s Daily print editions, from 1949 to the present.
 - Weibo posts related to environmental protection published by People’s Daily.
 
-Due to copyright restrictions and platform policies, raw news articles and social media posts are not publicly released in this repository.
+Due to copyright restrictions and platform policies, raw news articles, article-level coded spreadsheets, and social media posts are not publicly released in this repository. The repository includes aggregate result tables and figures only.
 
 ## Method
 
@@ -37,6 +37,7 @@ For the social media component, a self-built web crawler was used to collect Wei
 ```text
 ├── README.md
 ├── data/
+│   ├── raw/
 │   └── processed/
 ├── scripts/
 │   ├── crawler/
@@ -50,7 +51,7 @@ For the social media component, a self-built web crawler was used to collect Wei
 
 ## Notes
 
-This repository is intended for academic documentation and methodological transparency. Raw copyrighted news content and platform data are not included.
+This repository is intended for academic documentation and methodological transparency. Raw copyrighted news content, platform data, and row-level coded metadata are not included.
 
 ## Project Information
 

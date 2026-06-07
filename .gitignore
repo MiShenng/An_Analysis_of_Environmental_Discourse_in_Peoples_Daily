@@ -1,0 +1,31 @@
+.DS_Store
+._*
+
+# Local credentials and runtime configuration
+.env
+
+# Raw copyrighted/platform data are intentionally excluded
+data/raw/*
+!data/raw/README.md
+data/unprocessed/
+/raw/
+
+# Row-level coded data are local/restricted only
+data/processed/*
+!data/processed/README.md
+
+# R/Python runtime artifacts
+.Rhistory
+__pycache__/
+*.pyc
+
+# Local logs, databases, model/checkpoint artifacts, and large intermediates
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.parquet
+*.pt
+*.pth
+*.ckpt
+*.safetensors

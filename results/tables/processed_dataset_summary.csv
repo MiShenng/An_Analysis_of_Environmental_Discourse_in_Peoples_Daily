@@ -1,0 +1,7 @@
+metric,value
+all_coded_records,15795
+environmental_news_records,15136
+filter,是否环境新闻报道 == 是
+percentage_denominator,non-missing records within each year/variable
+year_min,1949
+year_max,2024
